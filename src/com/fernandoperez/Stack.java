@@ -30,6 +30,7 @@ public class Stack {
         if(!isEmpty()) {
             double valor = head.getValor();
             head = head.getSiguiente();
+            size--;
             return valor;
         } else {
             return Double.MAX_VALUE;
