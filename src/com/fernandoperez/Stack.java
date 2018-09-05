@@ -1,7 +1,7 @@
 package com.fernandoperez;
 
 public class Stack {
-    private Nodo head;
+    private NodoCalc head;
     private int size;
 
     public Stack() {
@@ -14,7 +14,7 @@ public class Stack {
     }
 
     public void push(double value) {
-        Nodo nuevo = new Nodo(value);
+        NodoCalc nuevo = new NodoCalc(value);
 
         if(isEmpty()) {
             head = nuevo;
@@ -37,7 +37,7 @@ public class Stack {
         }
     }
 
-    public Nodo getHead() {
+    public NodoCalc getHead() {
         return head;
     }
 }

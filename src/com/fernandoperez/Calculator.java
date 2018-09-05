@@ -1,9 +1,9 @@
 package com.fernandoperez;
 
-public class RPNCalculator {
+public class Calculator {
     private Stack stack;
 
-    public RPNCalculator() {
+    public Calculator() {
         this.stack = new Stack();
     }
 

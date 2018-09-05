@@ -1,19 +1,19 @@
 package com.fernandoperez;
 
-public class Nodo {
-    private Nodo siguiente;
+public class NodoCalc {
+    private NodoCalc siguiente;
     private double valor;
 
-    public Nodo(double valor) {
+    public NodoCalc(double valor) {
         this.siguiente = null;
         this.valor = valor;
     }
 
-    public Nodo getSiguiente() {
+    public NodoCalc getSiguiente() {
         return siguiente;
     }
 
-    public void setSiguiente(Nodo siguiente) {
+    public void setSiguiente(NodoCalc siguiente) {
         this.siguiente = siguiente;
     }
 
